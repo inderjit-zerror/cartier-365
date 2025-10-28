@@ -7,7 +7,7 @@ void main() {
 
   vec3 newPosition = position;
   // --------------------------------------------------------
-  float speed = (uScrollSpeed + uIntroCurve) * 70.0;
+  float speed = (uScrollSpeed + uIntroCurve) * 50.0;
   // --------------------------------------------------------
   newPosition.z -= sin(uv.x * 3.141) * speed;
   
