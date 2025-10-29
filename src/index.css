@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.scroll-lock{
+    overflow:hidden;
+    height:100%;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

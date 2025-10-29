@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <div className='w-full min-h-screen flex relative'>
-        <div className='w-full h-screen fixed top-0 left-0 bg-red-900 z-10'>
+        <div className='w-full h-screen fixed top-0 left-0 z-10'>
             <video autoPlay muted loop className='w-full h-full object-cover' src={video1}></video>
         </div>
         <HomeInner/>
